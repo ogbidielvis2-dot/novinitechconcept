@@ -1,18 +1,8 @@
-# Novini Tech Concept — Central Website
+# Novini Tech Concept — website
 
-This is a responsive static frontend for Novini Tech Concept as the parent company of:
-- TruxPylot
-- Novini ICT Academy
-- Novini Tech Concept services
+Dependency-free static site (HTML, CSS, vanilla JS). Open `index.html` or serve the folder with any static host.
 
-## Exact asset used
-The uploaded Novini Tech Concept logo is preserved as `assets/ntc-logo.png`.
-
-## Important
-No replacement stock photos were inserted because the source media for TruxPylot and Novini ICT Academy were not supplied in the current build. The visual cards use CSS treatments and text so your real media can be dropped in without changing the structure.
-
-## Run
-Open `index.html` directly, or serve the folder with any static web server.
-
-## Next asset replacement
-When you provide the actual TruxPylot, Academy and Novini photos/logos, place them in `assets/` and wire them into the three venture cards/hero without changing the layout.
+- `index.html` — all sections, SEO metadata, JSON-LD
+- `assets/styles.css` — design system (tokens at top of file)
+- `assets/site.js` — behaviour; `CONFIG` at the top sets TruxPylot/Academy URLs, contact channels and social links
+- `assets/ntc-logo.png` — original logo; `logo.png` / `favicon.png` are optimised transparent versions of it
