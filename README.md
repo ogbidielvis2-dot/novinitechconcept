@@ -4,5 +4,5 @@ Dependency-free static site (HTML, CSS, vanilla JS). Open `index.html` or serve 
 
 - `index.html` — all sections, SEO metadata, JSON-LD
 - `assets/styles.css` — design system (tokens at top of file)
-- `assets/site.js` — behaviour; **edit `CONFIG` at the top** to set TruxPylot/Academy URLs, contact email/phone/WhatsApp and social links
-- `assets/logo.svg` — **placeholder mark; replace with the official Novini logo**
+- `assets/site.js` — behaviour; `CONFIG` at the top sets TruxPylot/Academy URLs, contact channels and social links
+- `assets/ntc-logo.png` — original logo; `logo.png` / `favicon.png` are optimised transparent versions of it

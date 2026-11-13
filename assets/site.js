@@ -3,8 +3,8 @@
   'use strict';
   /* ---- Site configuration: fill these in; anything empty is hidden or falls back to an in-page anchor. ---- */
   var CONFIG = {
-    links: { truxpylot: '', academy: '' },        // e.g. 'https://truxpylot.com'
-    contact: { email: '', phone: '', whatsapp: '' }, // whatsapp: digits only, e.g. '2348000000000'
+    links: { truxpylot: 'https://truxpylot.com/', academy: '' }, // academy URL not yet known
+    contact: { email: 'hello@novinitechconcept.com', phone: '', whatsapp: '' }, // whatsapp: digits only
     socials: []                                    // e.g. [{ label: 'LinkedIn', url: 'https://…' }]
   };
 
